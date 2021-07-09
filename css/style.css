@@ -353,28 +353,28 @@ template {
   display: none;
 }
 
-.header {
+.navbar {
   background-color: #ffffff;
 }
-.header-top {
+.navbar-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.header__search {
+.navbar__search {
   margin-right: auto;
   margin-left: 108px;
 }
-.header .search {
+.navbar .search {
   display: flex;
   position: relative;
   overflow: hidden;
   border-radius: 6px;
   height: 40px;
 }
-.header .search__input {
+.navbar .search__input {
   width: 350px;
   height: 100%;
   padding-left: 23px;
@@ -385,7 +385,7 @@ template {
   line-height: 15px;
   color: #333333;
 }
-.header .search__button {
+.navbar .search__button {
   position: absolute;
   top: 0;
   right: 0;
