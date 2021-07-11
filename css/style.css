@@ -12,6 +12,10 @@ body {
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -383,17 +387,19 @@ template {
   text-decoration: none;
   text-transform: uppercase;
 }
-.navbar .logo {
+
+.logo {
   width: 177px;
 }
-.navbar .search {
+
+.search {
   display: flex;
   position: relative;
   overflow: hidden;
   border-radius: 6px;
   height: 40px;
 }
-.navbar .search__input {
+.search__input {
   width: 350px;
   height: 100%;
   padding-left: 23px;
@@ -404,7 +410,7 @@ template {
   line-height: 15px;
   color: #333333;
 }
-.navbar .search__button {
+.search__button {
   position: absolute;
   top: 0;
   right: 0;
@@ -440,7 +446,11 @@ template {
 }
 @media (max-width: 992px) {
   .container {
-    max-width: 760px;
+    max-width: 700px;
+  }
+
+  .logo {
+    width: 132px;
   }
 
   .navbar-top {
@@ -464,5 +474,9 @@ template {
   .container {
     max-width: 700px;
     width: 92%;
+  }
+
+  .navbar__search, .navbar-menu, .navbar__user {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
