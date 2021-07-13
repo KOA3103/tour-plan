@@ -448,7 +448,7 @@ template {
 .breadcrumb-list {
   display: flex;
   align-items: center;
-  padding: 18px 0;
+  padding: 20px 0 0 0;
   margin: 0;
   list-style: none;
 }
@@ -466,7 +466,7 @@ template {
 }
 
 .hotel {
-  padding-top: 17px;
+  padding-top: 23px;
   padding-bottom: 70px;
 }
 .hotel-info {
@@ -585,9 +585,7 @@ template {
   }
 
   .stars {
-    flex-basis: content;
-    max-width: 100%;
-    padding-top: 17px;
+    width: 26%;
   }
 
   .hotel-name {
@@ -600,7 +598,7 @@ template {
     width: 100%;
   }
   .hotel-info__name {
-    margin-top: 0px;
+    margin-top: 12px;
     margin-bottom: 0px;
   }
   .hotel-info__rating {
@@ -622,7 +620,7 @@ template {
   }
 
   .navbar-top {
-    padding-top: 28px;
+    padding-top: 22px;
     padding-bottom: 29px;
   }
 }/*# sourceMappingURL=style.css.map */
