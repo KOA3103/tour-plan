@@ -598,7 +598,7 @@ template {
     width: 100%;
   }
   .hotel-info__name {
-    margin-top: 12px;
+    margin-top: 11px;
     margin-bottom: 0px;
   }
   .hotel-info__rating {
@@ -606,7 +606,7 @@ template {
   }
   .hotel-info__offer {
     order: -1;
-    margin-left: 0;
+    margin-left: 2px;
   }
 }
 @media (max-width: 576px) {
@@ -622,5 +622,9 @@ template {
   .navbar-top {
     padding-top: 22px;
     padding-bottom: 29px;
+  }
+
+  .hotel {
+    padding-top: 11px;
   }
 }/*# sourceMappingURL=style.css.map */
