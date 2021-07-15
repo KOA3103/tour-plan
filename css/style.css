@@ -584,7 +584,7 @@ template {
   border-radius: 8px;
   width: 350px;
   min-height: 210px;
-  padding: 28px;
+  padding: 29px 30px 26px 25px;
 }
 .booking__info {
   display: flex;
@@ -605,6 +605,7 @@ template {
   font-weight: 800;
   font-size: 24px;
   line-height: 33px;
+  margin-bottom: -4px;
 }
 .booking__per-room {
   font-style: normal;
@@ -613,7 +614,7 @@ template {
   line-height: 16px;
 }
 .booking__room {
-  margin-top: 4px;
+  margin-top: 5px;
 }
 .booking__text {
   display: flex;
